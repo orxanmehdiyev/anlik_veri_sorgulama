@@ -2,7 +2,7 @@
 @ob_start();
 	@session_start();
 	date_default_timezone_set('Europe/Istanbul');
-
+ 
 if (basename($_SERVER['PHP_SELF'])==basename(__FILE__)) {
 	exit(' Erişim Engellendi.');
 };
@@ -10,8 +10,8 @@ if (basename($_SERVER['PHP_SELF'])==basename(__FILE__)) {
 
 	
 	$db_user 	= "root";        // Kullanıcı adı
-	$db_pass 	= "";            // Veritabanı şifre
-	$db_name 	= "bulutasarim"; // Veritabanı Adı
+	$db_pass 	= "13041987";            // Veritabanı şifre
+	$db_name 	= "anliqverisorgulama"; // Veritabanı Adı
 	$host_name 	= "localhost";
 
 	
